@@ -1,0 +1,45 @@
+name: repo_viewer
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_secure_storage: ^5.0.2
+  webview_flutter: ^3.0.4
+  auto_route: ^4.2.1
+  material_design_icons_flutter: ^5.0.6996
+  flash: ^2.0.3+3
+  material_floating_search_bar: ^0.3.7
+  flutter_hooks: ^0.18.0
+  hooks_riverpod: ^1.0.4
+  freezed_annotation: ^2.1.0
+  dartz: ^0.10.0-nullsafety.2
+  oauth2: ^2.0.0
+  dio: ^4.0.0
+  json_annotation: ^4.6.0
+  shimmer: ^2.0.0
+  sembast: ^3.2.0+1
+  path_provider: ^2.0.11
+  path: ^1.8.1
+  cached_network_image: ^3.2.1
+  url_launcher: ^6.1.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.0.4 # Builds the data classes when using freezed
+  freezed: ^2.1.0+1 # Automates creation of robust data classes with best practice methods & operators
+  auto_route_generator: ^4.2.0 # Generates the code for auto_route
+  json_serializable: ^6.3.1 # Providers builders for handling JSON. Makes it easier to communicate between Data
+  # classes and API's with respect to key > field matching
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
