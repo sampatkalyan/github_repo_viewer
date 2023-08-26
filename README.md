@@ -1,4 +1,4 @@
-# repo_viewer
+# Eepo viewer
 
 A new Flutter project.
 
